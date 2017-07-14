@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="En las tardes y las mañanas salga abrigado(a) por el mal clima"
+    android:textSize="17dp"
+
+    android:textAlignment="center"
+    android:layout_centerVertical="true"
+    android:layout_toEndOf="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disfruta de los pastes que es lo mejor"
+        android:textSize="17dp"
+
+        android:textAlignment="center"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visita real del monte, Ademas de su turismo en el famoso reloj de pachuca"
+        android:textSize="17dp"
+
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="88dp"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visita la diversidad que tenemos en museos. (Arte,Mineria,fotografia)"
+        android:textSize="17dp"
+
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/textView" />
+</RelativeLayout>
